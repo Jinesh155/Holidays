@@ -10,6 +10,11 @@
       "taskName": "task-Holiday-List",
       "appliesTo": "/",
       "type": "launch"
+    },
+    {
+      "taskName": "task-Holiday-List",
+      "appliesTo": "/",
+      "type": "launch"
     }
   ]
 }
