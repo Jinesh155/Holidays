@@ -1,0 +1,21 @@
+<ul class="nav nav-pills">
+  <li class="holiday-list">Holiday Details</li>
+  <li (click) = "goBack()"  class="back"><button class="btn btn-default">Back</button></li>
+  
+</ul>
+
+<div class="row holiday-detail">
+  <div  class="col-md-6">
+  	
+  	<h4>Name</h4>
+  	<p>{{_holidayDetail.name}}</p>
+  		<h4>Date</h4>
+  		<p>{{_holidayDetail.date}}</p>
+  			<h4>Observed</h4>
+  			<p>{{_holidayDetail.observed}} </p>
+  				<h4>Public</h4>
+  				<p>{{_holidayDetail.public ? "Yes" : "No"}}</p>
+
+  </div>
+ 
+</div>

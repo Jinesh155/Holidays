@@ -1,0 +1,6 @@
+<h1 class="holiday-list">Holiday List -Year 2015</h1>
+  <ul class="detail">
+   <li *ngFor="let value of _holidayList" (click)="displayList(value)">
+      {{value.name}}
+   </li>
+  </ul>

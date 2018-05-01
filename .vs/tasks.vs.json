@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-services",
+      "appliesTo": "src/services/",
+      "type": "launch"
+    },
+    {
+      "taskName": "task-Holiday-List",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}

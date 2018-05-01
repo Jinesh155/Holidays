@@ -1,0 +1,14 @@
+.holiday-list{
+	font-size:20px; margin-top:20px;margin-left:10px; text-decoration: underline;
+}
+
+.show-list{
+	margin-left:15px;
+	width:95% !important;
+}
+
+.detail{
+	cursor:pointer;
+	text-decoration: underline;
+	color:blue;
+}
